@@ -1,0 +1,181 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #cac9c9;
+}
+
+/* SIDE BAR */
+svg {
+    height: 2em;
+    width: 2em;
+    filter: invert(100%);
+    margin-bottom: -10px;
+    padding-right: 20px;
+}
+#sidebar-container {
+    position: absolute;
+    height: 100%;
+    margin: -8px;
+    width: 20vw;
+    background-color: rgb(67, 150, 228);
+    color: white;
+
+    padding-top: 50px;
+    padding-left: 30px;
+
+    font-size: 1.5em;
+}
+
+#gap {
+    height: 50px
+}
+
+.sidebar {
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/* nav nav nav nav */
+
+
+#navbar {
+    background-color: white;
+    margin-top: -8px;
+    margin-right: -8px;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px 5px #a5a5a5;
+}
+
+.navbar .top-row {
+    width: 80%;
+    margin-left: 20%;
+    padding-top: 1.5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar .bottom-row {
+    
+    width: 80%;
+    padding-left: 23%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar > svg {
+    filter: invert(0%);
+    margin: 0;
+}
+
+.navbar .top-row .item {
+    padding-left: 50px;
+}
+
+input {
+    width: 40%;
+    padding-right: 30px;
+    border-radius: 20px;
+    background-color: rgb(241, 239, 239);
+}
+
+#profile-name {
+    display: block;
+    padding-left: 15px;
+    font-size: 1.3em;
+
+}
+
+
+.buttons {
+    
+    margin-right: 5%;
+}
+
+
+#profile-pic2 > svg {
+    height: 4em;
+    width: 4em;
+}
+
+#larger {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(67, 150, 228);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    margin-right: 20px;
+    
+}
+
+.left {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+/* grid grid grid grid */
+
+.main-container {
+    display: flex;
+    margin-left: 23vw;
+    margin-top: -10;
+}
+
+#grid-container1 {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, clamp(200px, 57%, 900px));
+    grid-template-rows: repeat(3, clamp(150px, 60%, 500px));
+    row-gap: 50px;
+    column-gap: 30px;
+    padding-left: 2%;
+    padding-top: 5%;
+    padding-right: 0;
+  
+
+}
+
+#grid-container2 {
+    justify-content: flex-end;
+    flex: 1;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: repeat(1, clamp(150px, 50%, 300px));
+    grid-template-rows: repeat(2, clamp(250px, 60%, 1000px));
+    gap: 47px;
+
+    padding-top: 5%;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 252, 252);
+    border-radius: 10px;
+    border-left: 8px solid rgb(244, 229, 67);
+}
+
+
